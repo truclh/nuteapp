@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NUTEApplications</string>
+    <string name="infotuyensinh">Thông tin tuyển sinh</string>
+    <string name="timnhatro">Tra cứu địa chỉ nhà trọ</string>
+    <string name="title_activity_nute_start_app">Nute_StartApp</string>
+    <string name="webtruong">Website của Trường.</string>
+    <string name="callsp"> Tư vấn trực tiếp </string>
+    <string name="title_activity_nute_main_app">Nute_MainApp</string>
+    <string name="tentruong">Trường Đại học Sư phạm Kỹ Thuật Nam Định</string>
+    <string name="action_settings">Settings</string>
+    <string name="term">Copyright © 2014 Luu Truc Hiworld JSC. All Rights Reserved</string>
+    <string name="title_activity_nute__web_view">Nute_WebView</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_nute__address">Nute_Address</string>
+    <string name="title_activity_nute__website">Nute_Website</string>
+
+</resources>
