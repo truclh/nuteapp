@@ -42,6 +42,14 @@
             android:name="hiworld.truclh.nute.vn.Nute_Website"
             android:label="@string/title_activity_nute__website" >
         </activity>
+        <activity
+            android:name="com.example.truclh.nute.vn.Nute_FindDoc"
+            android:label="@string/title_activity_nute__find_doc" >
+        </activity>
+        <activity
+            android:name="com.example.truclh.nute.vn.Nute_Finddata"
+            android:label="@string/title_activity_nute__finddata" >
+        </activity>
     </application>
 
 </manifest>

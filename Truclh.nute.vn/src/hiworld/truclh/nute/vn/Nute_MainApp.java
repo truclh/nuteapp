@@ -1,7 +1,5 @@
 package hiworld.truclh.nute.vn;
 
-import com.example.truclh.nute.vn.R;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
@@ -11,8 +9,11 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
+import com.example.truclh.nute.vn.R;
+
 public class Nute_MainApp extends Activity {
-	Button mBtn_thongtintuyensinh, mBtnTracuudiachi, mBtnWeb, mBtnCallSP;
+	Button mBtn_thongtintuyensinh, mBtnTracuudiachi, mBtnWeb, mBtnCallSP,
+			mBtnFindDoc;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -22,28 +23,39 @@ public class Nute_MainApp extends Activity {
 		mBtnTracuudiachi = (Button) findViewById(R.id.BTN_FIND_PLACE);
 		mBtnWeb = (Button) findViewById(R.id.BTN_WEB_UNIVER);
 		mBtnCallSP = (Button) findViewById(R.id.BTN_CALL_SUPPORT);
+		mBtnFindDoc = (Button)findViewById(R.id.BTN_DOC);
 		
-		mBtn_thongtintuyensinh.setOnClickListener(new OnClickListener() {
+		mBtnFindDoc.setOnClickListener(new OnClickListener() {
 			
+//			@Override
+//			public void onClick(View arg0) {
+//				Intent i = new Intent(Nute_MainApp.this, Nute_FindDoc.class);
+//				startActivity(i);
+//					
+//			}
+//		});
+//		
+		mBtn_thongtintuyensinh.setOnClickListener(new OnClickListener() {
+
 			@Override
 			public void onClick(View v) {
-				Intent i = new Intent(Nute_MainApp.this,Nute_WebView.class);
+				Intent i = new Intent(Nute_MainApp.this, Nute_WebView.class);
 				startActivity(i);
-				
+
 			}
 		});
-		
+
 		mBtnTracuudiachi.setOnClickListener(new OnClickListener() {
-			
+
 			@Override
 			public void onClick(View v) {
 				Intent i = new Intent(Nute_MainApp.this, Nute_Address.class);
 				startActivity(i);
 			}
 		});
-		
+
 		mBtnWeb.setOnClickListener(new OnClickListener() {
-			
+
 			@Override
 			public void onClick(View v) {
 				Intent i = new Intent(Nute_MainApp.this, Nute_Website.class);
@@ -51,7 +63,7 @@ public class Nute_MainApp extends Activity {
 			}
 		});
 		mBtnCallSP.setOnClickListener(new OnClickListener() {
-			
+
 			@Override
 			public void onClick(View v) {
 				String url = "tel: +843503637804";

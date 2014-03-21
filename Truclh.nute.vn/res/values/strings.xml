@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">NUTEApplications</string>
-    <string name="infotuyensinh">Thông tin tuyển sinh</string>
+    <string name="infotuyensinh">Thông tin tuyển sinh 2014</string>
     <string name="timnhatro">Tra cứu địa chỉ nhà trọ</string>
     <string name="title_activity_nute_start_app">Nute_StartApp</string>
     <string name="webtruong">Website của Trường.</string>
@@ -12,8 +12,12 @@
     <string name="action_settings">Settings</string>
     <string name="term">Copyright © 2014 Luu Truc Hiworld JSC. All Rights Reserved</string>
     <string name="title_activity_nute__web_view">Nute_WebView</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="reg_tinchi">Đăng ký tín chỉ</string>
+    <string name="document">Tra cứu văn bản</string>
     <string name="title_activity_nute__address">Nute_Address</string>
     <string name="title_activity_nute__website">Nute_Website</string>
+    <string name="title_activity_nute__find_doc">Nute_FindDoc</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_nute__finddata">Nute_Finddata</string>
 
 </resources>

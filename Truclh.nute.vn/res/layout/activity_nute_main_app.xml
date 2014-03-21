@@ -6,7 +6,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:background="#ffaa99"
         android:gravity="center"
         android:orientation="vertical" >
@@ -25,7 +25,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:background="@drawable/bg_help_open"
         android:orientation="horizontal" >
 
@@ -63,7 +63,7 @@
                         android:id="@+id/BTN_INFO_TS"
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_marginTop="10dp"
+                        android:layout_marginTop="5dp"
                         android:layout_weight="1"
                         android:background="@drawable/bgedittext_press"
                         android:text="@string/infotuyensinh" />
@@ -71,8 +71,8 @@
                     <Button
                         android:id="@+id/BTN_FIND_PLACE"
                         android:layout_width="match_parent"
-                        android:layout_marginTop="10dp"
                         android:layout_height="0dp"
+                        android:layout_marginTop="5dp"
                         android:layout_weight="1"
                         android:background="@drawable/bgedittext_press"
                         android:text="@string/timnhatro" />
@@ -85,29 +85,38 @@
                     android:orientation="vertical" >
 
                     <Button
-                        android:id="@+id/BTN_WEB_UNIVER"
-                        android:layout_width="match_parent"
-                         android:layout_marginTop="10dp"
-                        android:layout_height="0dp"
-                        android:background="@drawable/bgedittext_press"
-                        android:layout_weight="1"
-                        android:text="@string/webtruong" />
-
-                    <Button
                         android:id="@+id/BTN_CALL_SUPPORT"
                         android:layout_width="match_parent"
-                         android:layout_marginTop="10dp"
                         android:layout_height="0dp"
+                        android:layout_marginTop="5dp"
                         android:layout_weight="1"
                         android:background="@drawable/bgedittext_press"
                         android:text="@string/callsp" />
+
+                    <Button
+                        android:id="@+id/BTN_WEB_UNIVER"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bgedittext_press"
+                        android:text="@string/webtruong" />
+
+                    <Button
+                        android:id="@+id/BTN_DOC"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bgedittext_press"
+                        android:text="@string/document" />
                 </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                android:layout_margin="5dp"
                 android:gravity="bottom|center"
                 android:orientation="vertical" >
 
